@@ -54,3 +54,51 @@ This project simulates (or optionally integrates with real) servers and monitors
 | **Cloud Deployment** | AWS (EC2, RDS, S3)            |
 
 ---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Python 3.10+  
+- Node.js & npm (for frontend)  
+- Docker & Docker Compose  
+- (Optional) AWS account for deployment  
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/server-predictive-maintenance.git
+cd server-predictive-maintenance
+```
+### Running the Project (Locally)
+
+docker-compose up --build
+This starts:
+ - Backend at http://localhost:8000
+ - Frontend at http://localhost:3000
+ - Prometheus & Grafana dashboards (if enabled)
+
+## Usage
+1. Register or log in via the frontend.
+2. Add new server instances or let the simulator auto-generate.
+3. Define rules (e.g., CPU > 90%, memory > 85%, uptime > 365 days).
+4. View server metrics, alerts, and maintenance logs in real time.
+5. (Optional) Dive into Grafana dashboards for visual analytics.
+
+## Architecture & Workflow
+1. Simulation Agent creates or monitors server metrics.
+2. Backend stores server data and rules.
+3. A background task evaluates metrics against rules, generating alerts.
+4. Frontend displays real-time status, historical trends, and alerts.
+5. Prometheus optionally scrapes metrics for dashboarding in Grafana.
+
+## Roadmap
+ - [] Basic server simulation and CRUD endpoints
+ - [] Rule engine and alert logging
+ - [] User authentication and scoped access
+ - [] React frontend with dashboards
+ - [] Prometheus/Grafana integration
+ - [] Email/Slack alert notifications
+ - [] PDF/CSV reporting for trends and alerts
