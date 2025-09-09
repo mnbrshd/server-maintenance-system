@@ -16,9 +16,6 @@
 5. [Usage](#usage)  
 6. [Architecture & Workflow](#architecture--workflow)  
 7. [Roadmap](#roadmap)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-10. [Acknowledgments](#acknowledgments)  
 
 ---
 
