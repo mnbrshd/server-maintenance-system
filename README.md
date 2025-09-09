@@ -92,10 +92,10 @@ This starts:
 5. Prometheus optionally scrapes metrics for dashboarding in Grafana.
 
 ## Roadmap
- - [] Basic server simulation and CRUD endpoints
- - [] Rule engine and alert logging
- - [] User authentication and scoped access
- - [] React frontend with dashboards
- - [] Prometheus/Grafana integration
- - [] Email/Slack alert notifications
- - [] PDF/CSV reporting for trends and alerts
+ - [ ] Basic server simulation and CRUD endpoints
+ - [ ] Rule engine and alert logging
+ - [ ] User authentication and scoped access
+ - [ ] React frontend with dashboards
+ - [ ] Prometheus/Grafana integration
+ - [ ] Email/Slack alert notifications
+ - [ ] PDF/CSV reporting for trends and alerts
